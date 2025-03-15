@@ -8,7 +8,8 @@ contract Assignment7Test is Test {
     Assignment7 assignment;
 
     function setUp() public {
-        assignment = new Assignment7();
+        // pass your token name and symbol here
+        assignment = new Assignment7("MyFirstContract", "MFC");
     }
 
     function testMintAndTransfer() public {
